@@ -27,7 +27,7 @@ python -m spacy download en_core_web_md   # Para inglés (opcional)
 python test_simple.py
 ```
 
-## 💡 Uso Básico
+## Uso Básico
 
 ### Comparar dos textos
 
@@ -71,7 +71,7 @@ cd examples
 python quick_comparison.py archivo1.txt archivo2.txt
 ```
 
-## 📊 Ejemplo de Salida
+## Ejemplo de Salida
 
 ```
 ======================================================================
@@ -81,8 +81,8 @@ REPORTE DE ANÁLISIS DE SIMILITUD/PLAGIO
 📄 Archivo A: documento_original.txt
 📄 Archivo B: documento_sospechoso.txt
 
-🎯 SIMILITUD TOTAL: 73.45%
-📊 VEREDICTO: PLAGIO PROBABLE - Similitud significativa detectada
+SIMILITUD TOTAL: 73.45%
+VEREDICTO: PLAGIO PROBABLE - Similitud significativa detectada
 
 ----------------------------------------------------------------------
 DESGLOSE POR CATEGORÍAS:
@@ -103,7 +103,7 @@ PESOS UTILIZADOS:
 ======================================================================
 ```
 
-## 🎯 Interpretación de Resultados
+## Interpretación de Resultados
 
 | Porcentaje | Veredicto | Descripción |
 |-----------|-----------|-------------|
@@ -114,7 +114,7 @@ PESOS UTILIZADOS:
 | 0-30% | Similitud baja | Textos probablemente originales |
 
 
-## 🔬 Metodología Técnica
+## Metodología Técnica
 
 ### Análisis Semántico (40%)
 - **Modelo**: Sentence-BERT (`paraphrase-multilingual-MiniLM-L12-v2`)
